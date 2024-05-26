@@ -20,6 +20,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // Setup routes
 app.use('/', routes);
 
+// Welcome message at the root route
+app.get('/', (req, res) => {
+    res.send('Welcome to the Polling System API');
+});
+
 // Start the server
 app.listen(port, (err) => {
     if (err) {
