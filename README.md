@@ -32,8 +32,8 @@ The project is structured into models, controllers, routes, and configuration fi
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/h-r-wells2/placement-cell.git
-   cd placement-cell
+   git clone https://github.com/h-r-wells2/pooling-system-api.git
+   cd pooling-system-api
    ```
 
 2. **Install dependencies:**
